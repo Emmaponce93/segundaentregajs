@@ -54,3 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('iva-form');
     form.addEventListener('submit', manejarFormulario);
 });
+
+const coche = {
+    marca: "Toyota",
+    modelo: "Fiat",
+    año: 2022
+};
+
+console.log(coche.marca); 
+console.log(coche["modelo"]);
